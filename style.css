@@ -1,0 +1,604 @@
+*{
+    font-family: "Roboto", "Arial","sans-serif";
+}
+
+.nav_Logo{
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+.heroBanner_Title{
+    font-size: 68px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 70px;
+}
+
+.heroBanner_Link{
+    letter-spacing: 5px;
+    font-weight: 400;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.bgImage{
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/8e45000741485ddbb8c00226/a7.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgImage1{
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/dfbc06fd68545562b07f6e0f/tt.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.3;
+}
+
+
+
+/* Media query */
+
+@media (min-width: 1200px) {
+  
+    .nav_Logo{
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+
+    .heroBanner_Section{
+        width: 50%;
+    }
+
+    .heroBanner_Title{
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+
+    .heroBanner_para{
+        font-weight: 300; 
+        font-size: 22px;
+    }
+
+    .heroBanner_para1{    
+        padding-top: 1rem;
+    }
+
+    .divContainer{
+        margin-left: 255px;
+    }
+
+    .divContainer div{
+        height: 151px; 
+        width: 21px;
+        margin-top: -80px;
+    }
+
+    .paraInfo{
+        line-height: 20px;
+    }
+  
+    .paraInfo1{
+        line-height: 20px;
+    }
+
+    .bgImageRock{
+       margin-left: 0px;
+       width: 100%;
+    }
+  
+    .steveA{
+        margin-top: 25px;
+    }
+
+    .steveHacketInfo{
+        margin-top: 20px;
+    }
+
+    .jimmyPage{
+        padding-top: 110px;
+    }
+
+    .jimmyPageHeader{
+        letter-spacing: 0px;
+    }
+
+    .jimmyImg img{
+        margin-top: -739px;
+        margin-left: 140px;
+    }
+
+    .jimmyCon{
+        margin-left: 25px;
+        width: 430px;  
+        height: 161px;
+        margin-top: 120px;
+    }
+
+    .imgButtler{
+        margin-top: -390px;
+        margin-left: -25px;
+        width: 249px;
+    }
+
+    .amSinger{
+        text-align: center;
+    }
+
+    .imgButtler1{
+       text-align: center;
+    }
+
+    .carlosInfo{
+        margin-top: 50px;
+    }
+
+    .musicNews{
+        margin: 20px 0;
+        font-weight: 900;
+    }
+    
+    .FTIL{
+        text-align: center;
+    }
+
+    .FTIL i{
+        margin-left: 10px;
+    }
+     
+    
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  
+    .nav_Logo{
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+
+    .heroBanner_Section{
+        width: 50%;
+    }
+
+    .heroBanner_Title{
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+
+    .heroBanner_para{
+        font-weight: 300; 
+        font-size: 22px;
+    }
+
+    .heroBanner_para1{    
+        padding-top: 1rem;
+    }
+
+    .divContainer{
+        margin-left: 255px;
+    }
+
+    .divContainer div{
+        height: 151px; 
+        width: 21px;
+        margin-top: -80px;
+    }
+
+    .paraInfo{
+        line-height: 20px;
+    }
+  
+    .paraInfo1{
+        line-height: 20px;
+    }
+
+    .bgImageRock{
+       margin-left: 0px;
+       width: 100%;
+    }
+  
+    .steveA{
+        margin-top: 25px;
+    }
+
+    .steveHacketInfo{
+        margin-top: 20px;
+    }
+
+    .jimmyPage{
+        padding-top: 110px;
+    }
+
+    .jimmyPageHeader{
+        letter-spacing: 0px;
+    }
+
+    .jimmyImg img{
+        margin-top: -739px;
+        margin-left: 140px;
+    }
+
+    .jimmyCon{
+        margin-left: 25px;
+        width: 430px;  
+        height: 161px;
+        margin-top: 120px;
+    }
+
+    .imgButtler{
+        margin-top: -390px;
+        margin-left: -25px;
+        width: 249px;
+    }
+
+    .amSinger{
+        text-align: center;
+    }
+
+    .imgButtler1{
+       text-align: center;
+    }
+
+    .carlosInfo{
+        margin-top: 50px;
+    }
+
+    .musicNews{
+        margin: 20px 0;
+        font-weight: 900;
+    }
+    
+    .FTIL{
+        text-align: center;
+    }
+
+    .FTIL i{
+        margin-left: 10px;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+    .nav_Logo{
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+
+    .heroBanner_Section{
+        width: 50%;
+    }
+
+    .heroBanner_Title{
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+
+    .heroBanner_para{
+        font-weight: 300; 
+        font-size: 22px;
+    }
+
+    .heroBanner_para1{    
+        padding-top: 1rem;
+    }
+
+    .divContainer{
+        margin-left: 255px;
+    }
+
+    .divContainer div{
+        height: 151px; 
+        width: 21px;
+        margin-top: -80px;
+    }
+
+    .paraInfo{
+        line-height: 20px;
+    }
+  
+    .paraInfo1{
+        line-height: 20px;
+    }
+
+    .bgImageRock{
+       margin-left: 0px;
+       width: 100%;
+    }
+  
+    .steveA{
+        margin-top: 25px;
+    }
+
+    .steveHacketInfo{
+        margin-top: 20px;
+    }
+
+    .jimmyPage{
+        padding-top: 90px;
+    }
+
+    .jimmyPageHeader{
+        letter-spacing: 0px;
+    }
+
+    .jimmyImg img{
+        margin-top: -568px;
+    }
+
+    .jimmyCon{
+        margin-left: 25px;
+        width: 235px;  
+        height: 181px;
+    }
+
+    .imgButtler{
+        margin-top: -324px;
+        margin-left: -30px;
+        width: 180px;
+    }
+
+    .amSinger{
+        text-align: center;
+    }
+
+    .imgButtler1{
+       text-align: center;
+    }
+
+    .carlosInfo{
+        margin-top: 50px;
+    }
+
+    .musicNews{
+        margin: 20px 0;
+        font-weight: 900;
+    }
+    
+    .FTIL{
+        text-align: center;
+    }
+
+    .FTIL i{
+        margin-left: 10px;
+    }
+    
+    
+  }
+
+
+
+@media (min-width: 481px) and (max-width: 575px) {
+  
+    .nav_Logo{
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+
+    .heroBanner_Section{
+        width: 50%;
+    }
+
+    .heroBanner_Title{
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+
+    .heroBanner_para{
+        font-weight: 300; 
+        font-size: 22px;
+    }
+
+    .heroBanner_para1{    
+        padding-top: 1rem;
+    }
+
+    .divContainer{
+        margin-left: 255px;
+    }
+
+    .divContainer div{
+        height: 151px; 
+        width: 21px;
+        margin-top: -80px;
+    }
+
+    .paraInfo{
+        line-height: 20px;
+    }
+  
+    .paraInfo1{
+        line-height: 20px;
+    }
+
+    .bgImageRock{
+       margin-left: 0px;
+       width: 100%;
+    }
+  
+    .steveA{
+        margin-top: 25px;
+    }
+
+    .steveHacketInfo{
+        margin-top: 20px;
+    }
+
+    .jimmyPage{
+        padding-top: 80px;
+    }
+
+    .jimmyPageHeader{
+        letter-spacing: 0px;
+    }
+
+    .jimmyImg img{
+        margin-top: -568px;
+    }
+
+    .jimmyCon{
+        margin-left: 25px;
+        width: 235px;  
+        height: 181px;
+    }
+
+    .imgButtler{
+        margin-top: -324px;
+        margin-left: -30px;
+        width: 180px;
+    }
+
+    .amSinger{
+        text-align: center;
+    }
+
+    .imgButtler1{
+       text-align: center;
+    }
+
+    .carlosInfo{
+        margin-top: 50px;
+    }
+
+    .musicNews{
+        margin: 20px 0;
+        font-weight: 900;
+    }
+    
+    .FTIL{
+        text-align: center;
+    }
+
+    .FTIL i{
+        margin-left: 10px;
+    }
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .nav_Logo{
+        font-weight: 900;
+        letter-spacing: 0px;
+    }
+
+    .heroBanner_Section{
+        width: 50%;
+    }
+
+    .heroBanner_Title{
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+
+    .amSinger{
+        text-align: center;
+    }
+
+    .heroBanner_para{
+        font-weight: 300; 
+        font-size: 17px;
+    }
+
+    .heroBanner_para1{    
+        padding-top: 1rem;
+    }
+
+
+    .divContainer{
+        margin-left: 255px;
+    }
+
+    .divContainer div{
+        height: 151px; 
+        width: 21px;
+        margin-top: -80px;
+    }
+
+    .paraInfo{
+        line-height: 20px;
+    }
+  
+    .paraInfo1{
+        line-height: 20px;
+    }
+
+    .bgImageRock{
+       margin-left: 0px;
+       width: 100%;
+    }
+  
+    .steveMusic{
+        margin-top: 10px;
+    }
+
+    .steveHacketInfo{
+        margin-top: 20px;
+    }
+
+    .jimmyPage{
+        padding-top: 30px;
+    }
+
+    .jimmyPageHeader{
+        letter-spacing: 0px;
+    }
+
+    .jimmyImg img{
+        margin-top: -479px;
+    }
+
+    .jimmyCon{
+        margin-left: 25px;
+        width: 150px; 
+        height: 150px; 
+    }
+
+    .imgButtler{
+        margin-top: -297px;
+        margin-left: -10px;
+        width: 125px;
+    }
+
+
+    .imgButtler1{
+       text-align: center;
+    }
+
+    .carlosInfo{
+        margin-top: 50px;
+    }
+
+    .musicNews{
+        margin: 20px 0;
+        font-weight: 900;
+    }
+    
+    .FTIL{
+        text-align: center;
+    }
+
+    .FTIL i{
+        margin-left: 10px;
+    }
+    
+}
